@@ -47,5 +47,19 @@ func main() {
 	// Operadores unários
 	numero := 10
 	numero++
+	numero += 15 //numero = numero + 15
 	fmt.Println(numero)
+
+	numero--
+	numero -= 20
+
+	numero *= 3 // numero = numero * 3
+	numero /= 10
+	numero %= 3
+
+	fmt.Println(numero)
+	// Fim dos operadores unários
+
+	// Operadores Tenários
+
 }
